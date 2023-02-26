@@ -1,0 +1,57 @@
+.container {
+    /* margin-top: 1rem; */
+}
+
+.innerContainer {
+    gap: 4rem;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.comments {
+    background: url('../../media/comments.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50rem;
+    height: 26rem;
+    position: relative;
+}
+
+.commentsLine {
+    position: absolute;
+    width: 50rem;
+}
+
+.commentsSign { position: absolute; top: -2rem; right: -1rem; }
+.commentsStar { position: absolute; top: 8rem; left: 7rem; }
+.commentsSmile { position: absolute; top: 10rem; right: 7rem; }
+
+.details {
+    gap: 1rem;
+}
+
+.image {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.text {
+    color: var(--black);
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 1rem;
+    width: 30rem;
+    line-height: 1.7rem;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+}

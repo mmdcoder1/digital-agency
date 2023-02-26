@@ -1,0 +1,21 @@
+.container {
+    gap: 3rem;
+}
+
+.image {
+    margin-bottom: 1rem;
+}
+.title {
+    margin-bottom: 0.6rem;
+    color: var(--black);
+}
+.text {
+    color: var(--black);
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+.btn {
+   margin-right: -0.5rem;
+}
+

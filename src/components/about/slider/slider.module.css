@@ -1,0 +1,29 @@
+.container {
+    gap: 2rem;
+    position: relative;
+}
+
+.slider {
+    height: 36rem;
+    width: 25rem;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.slide { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn { 
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sliderVector {
+    position: absolute;
+    top: 4rem;
+    right: -1rem;
+}

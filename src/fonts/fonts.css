@@ -1,0 +1,49 @@
+@font-face {
+	font-family: peyda;
+	font-style: normal;
+	font-weight: bold;
+	src: url('PEYDA-BOLD.TTF');
+}
+
+@font-face {
+	font-family: peyda;
+	font-style: normal;
+	font-weight: 100;
+	src: url('PEYDA-THIN.TTF');
+}
+
+@font-face {
+	font-family: peyda;
+	font-style: normal;
+	font-weight: 300;
+	src: url('PEYDA-LIGHT.TTF');
+}
+
+@font-face {
+	font-family: peyda;
+	font-style: normal;
+	font-weight: normal;
+	src: url('PEYDA-REGULAR.TTF');
+
+}
+
+@font-face {
+	font-family: peyda;
+	font-style: normal;
+	font-weight: 500;
+	src: url('PEYDA-MEDIUM.TTF');
+}
+
+@font-face {
+	font-family: peyda;
+	font-style: normal;
+	font-weight: 800;
+	src: url('PEYDA-EXTRABOLD.TTF');
+}
+
+@font-face {
+	font-family: peyda;
+	font-style: normal;
+	font-weight: 900;
+	src: url('./PEYDA-BLACK.TTF');
+}

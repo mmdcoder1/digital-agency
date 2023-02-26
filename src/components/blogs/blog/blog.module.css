@@ -1,0 +1,25 @@
+.container {
+    padding: 2rem;
+    border-radius: 1.4rem;
+    gap: 2rem;
+    width: 100%;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.container:hover {
+    box-shadow: 15px 66px 158px -32px rgba(24, 27, 25, 0.07);
+    transform: scale(1.01);
+}
+
+.content {
+    gap: 0.7rem;
+}
+
+.text {
+    width: 14rem;
+    height: 3rem;
+    color: var(--black);
+    opacity: 0.5;
+    margin-top: 0.4rem;
+}

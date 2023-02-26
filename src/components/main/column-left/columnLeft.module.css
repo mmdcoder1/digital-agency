@@ -1,0 +1,88 @@
+.container {
+    height: 27rem;
+    width: 100%;
+    position: relative;
+}
+
+.popup {
+    background: var(--white);
+    box-shadow: 0px 31px 111px -24px rgba(39, 47, 52, 0.1);
+    padding: 1rem 1.8rem;
+    border-radius: 1.6rem;
+    width: fit-content;
+    position: absolute;
+}
+
+.columnGAP { gap: 1.6rem; }
+.rowGAP { gap: 1.6rem; }
+
+.popupTitle {
+    /* font-size: 1.1rem; */
+}
+
+.popupContent {
+    color: var(--black);
+    opacity: 0.65;
+}
+
+.columnPopup {
+    gap: 0.6rem;
+}
+
+.profiles {
+    position: absolute;
+}
+
+.profile {
+    margin-left: -1.4rem;
+    background: var(--white);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.position1 {
+   top: 2rem;
+   right: 9rem;
+}
+
+.position2 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.position3 {
+    top: 9.5rem;
+    right: 4rem;
+    z-index: 2;
+}
+
+.position4 {
+    top: 9.5rem;
+    left: 7rem;
+    z-index: 2;
+}
+
+.position5 {
+    bottom: 4rem;
+    right: 6rem;
+    z-index: 1;
+}
+
+.position6 {
+    bottom: 1rem;
+    left: 9rem;
+    z-index: 1;
+}
+
+.mouseArrow {
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    height: 20rem;
+}

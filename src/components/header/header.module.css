@@ -1,0 +1,30 @@
+.container { overflow: hidden; width: 100%;}
+.links {
+   gap: 4rem;
+   font-weight: 500; 
+}
+
+.link {
+    color: var(--black);
+    opacity: 0.6;
+    position: relative;
+}
+
+.link.active {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.link.active::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: var(--green);
+    bottom: -16px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 1rem;
+    height: 0.15rem;
+    border-radius: 2px;
+}
+

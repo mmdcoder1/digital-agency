@@ -1,0 +1,41 @@
+.about {}
+
+.aboutTitle {
+    color: var(--black);
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.aboutText {
+    color: var(--black);
+    opacity: 0.5;
+    font-weight: 500;
+    width: 22rem;
+    line-height: 1.7rem;
+}
+
+.socialMediaTitle {
+    color: var(--black);
+    margin-bottom: 1rem;
+    position: relative;
+    border-bottom: 2px solid var(--green);
+    padding-bottom: 0.4rem;
+    width: fit-content;
+}
+
+.listsContainer {
+    gap: 4rem;
+}
+
+.list {
+    gap: 0.6rem;
+}
+
+.link {
+    color: var(--black);
+    opacity: 0.5;
+}
+
+.icons {
+    gap: 0.6rem;
+}

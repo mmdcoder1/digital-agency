@@ -1,0 +1,10 @@
+.container {
+    margin: 8rem 0;
+}
+
+/* Media */
+@media(max-width: 1200px){
+    .container {
+        flex-direction: column;
+    }
+} 

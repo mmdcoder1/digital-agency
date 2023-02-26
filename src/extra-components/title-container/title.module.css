@@ -1,0 +1,52 @@
+.container {
+   text-align: center;
+   margin-bottom: 5rem;
+}
+
+.details {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.vector1, .vector2 { position: absolute; }
+
+.vector1 {
+   top: -2rem;
+   left: -10rem; 
+   animation: rotate 4s linear infinite;
+}
+
+.vector2 {
+    bottom: 2rem;
+    right: -10rem;
+    animation: jump 3s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-1rem); }
+    100% { transform: translateY(0); }
+}
+
+.title { 
+   font-size: 2rem;
+   color: var(--black);
+   font-weight: 800;
+   margin-bottom: 0.4rem;
+}
+
+.text {
+   font-size: 1rem;
+   font-weight: 500;
+   color: var(--black);
+   opacity: 0.5;
+   max-width: 20rem;
+   margin: auto;
+   line-height: 1.8rem;
+}
