@@ -12,30 +12,27 @@ import Comments from './components/comments/Comments';
 import Blogs from './components/blogs/root/Blogs';
 import Form from './components/form/Form';
 import Footer from './components/footer/Footer';
-import Loader from './components/loader/Loader';
+// import Loader from './components/loader/Loader';
 
 const App = () => {
-  const [loader, setLoader] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setLoader(false)
-    }, 2000);
-})
- 
+//   const [loader, setLoader] = useState(true);
+//   useEffect(() => {
+//     setTimeout(() => {
+//       setLoader(false)
+//     }, 2000);
+// })
   return (  
     <div>
-       {
-          (loader) ? <Loader /> : <>
-                                    <Header />
-                                    <Main />
-                                    <Services />
-                                    <About />
-                                    <Comments />
-                                    <Blogs />
-                                    <Form />
-                                    <Footer />
-                                </>
-       }
+          <>
+                <Header />
+                <Main />
+                <Services />
+                <About />
+                <Comments />
+                <Blogs />
+                <Form />
+                <Footer />
+            </>
     </div>
   )
 };
